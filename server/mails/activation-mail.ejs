@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS tutorial</title>
+    <style>
+        .email-body{
+            border: 1px solid gray;
+            width: 100%;
+            padding: 20px;
+            background-color: white;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="email-body">
+        Welcome to lms tutorial
+    </div>
+    <div class="-email-main">
+        <p>helo <%= user.name %></p>
+        <p>Thank you for signing up for an account, please enter the code below</p>
+        <p style="font-weight: 800;"><%= activationCode %></p>
+    </div>
+    
+</body>
+</html>
